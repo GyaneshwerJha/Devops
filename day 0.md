@@ -154,10 +154,9 @@ ls -ld testdir  # Should show drwx------
 
 ### Tips
 
-Tips
-Use man chmod or man chown in the terminal for more details.
-Be cautious with permissions on system files—practice in a safe directory like ~/practice.
-Common permission patterns:
-Scripts: 755 (executable by all, writable only by owner)
-Private files: 600 (only owner can read/write)
-Directories: 755 (owner has full access, others can enter/list)
+- Use man chmod or man chown in the terminal for more details.
+- Be cautious with permissions on system files—practice in a safe directory like ~/practice.
+- Common permission patterns:
+- Scripts: 755 (executable by all, writable only by owner)
+- Private files: 600 (only owner can read/write)
+- Directories: 755 (owner has full access, others can enter/list)
